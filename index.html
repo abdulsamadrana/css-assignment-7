@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        header{
+            width: 100%;
+            height: 200px;
+            /* border: 1px solid red; */
+        }
+        .socialicons{
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid gray;
+            /* border: 1px solid green; */
+            
+        }
+        .headicons{
+            margin-left: 920px;
+        }
+        .fa-brands{
+            font-size: 14px;
+            padding: 18px;
+            color: gray;
+        }
+        .fa-brands:hover{
+            color: green;
+            cursor: pointer;
+        }
+        .logo{
+        /* width: 300px; */
+        height: 80px;
+        display: inline-block;
+        /* margin-left: 100px; */
+        /* border: 1px solid black;  */
+        
+    }
+    .logo ,img{
+        /* width: 150px;  */
+        /* border: 1px solid yellow; */
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 20px;
+    } 
+    nav{
+        
+        /* height: 80px; */
+        /* border: 1px solid black;   */
+        display: inline-block;
+        vertical-align: middle;  
+        margin-left: 105px; 
+        /* padding-top: 8px;   */
+        margin-bottom: 60px; 
+        
+    }
+    ul{
+        display: inline-block;
+        /* padding-top: 8px; */
+    }
+    li{
+        display: inline-block;
+        padding-left: 40px;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        /* height: 50px;
+        border: 1px solid black; */
+    }
+    .fa-solid{
+        display: inline-block;
+        padding-left: 40px;
+        margin-left: 120px;
+        color: gray;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        /* width: 200px;
+        height: 200px; */
+    }
+    
+    a:hover{
+        color:black;
+        /* border: 1px solid hotpink; */
+        /* background-color: green; */
+        /* width: 200px;
+        height: 30px; */
+
+    }
+    .fa-solid:hover{
+        color: green;
+        cursor: pointer;
+    }
+    .receipe{
+        width: 100%;
+        height: 400px; 
+        /* border: 1px solid blueviolet; */
+        display: inline-block;
+    }
+    .receipeimage{
+        width: 500px;
+        height: 250px;
+        /* border: 1px solid blue; */
+        display: inline-block;
+        padding: 30px;
+        /* margin: 0px; */
+        margin-left: 75px;
+        padding-top: 60px;
+
+    }
+    .receipeimage img{
+        background-image: url(images/bg2.jpg);
+        margin-top: 70px;
+        width: 530px;
+        height: 250px;
+        
+    }
+    .content1{
+        background-image: url(images/bg2.jpg);
+        width: 530px;
+        height: 250px;
+        background-size: cover; 
+        padding: 30px;
+        padding-top: 70px;
+        color: white;
+        font-weight: bold;
+
+        }
+    .content2{
+    background-image: url(images/bg3.jpg);
+    width: 530px;
+    height: 250px;
+    background-size: cover; 
+    padding: 30px;
+    padding-top: 70px;
+    color: white;
+    font-weight: bold;
+    }
+    button{
+        background-color: #46a339;
+        width: 150px;
+        height: 60px;
+        border: none;
+        /* border-left:5px solid green; */
+        margin-top: 15px;
+        color: white;
+        font-weight: bold;
+    }
+    .bestreceipe{
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid firebrick; */
+        display: inline-block;
+        text-align: center;
+        padding-right: 210px;
+        margin-top: 50px;
+    }
+    .bestreceipe h2{
+        font-size: 32px;
+        font-weight: normal; 
+        padding-left: 200px;
+    }
+    .menu1{
+        width: 250px;
+        height: 250px;
+        /* border: 1px solid brown; */
+        display: inline-block;
+        /* padding: 50px; */
+        margin: 60px; 
+        /* margin-right:150px;  */
+    }
+    .menusection img{
+        width: 350px;
+        height: 350px;
+        border: none;
+        /* margin: 20px; */
+        border-bottom: 5px solid #46a339;
+        display: inline-block;
+    }
+    #anchor{
+        width: 250px;
+        /* border: 1px solid red; */
+        margin: 30px; 
+        margin-left: 100px;
+        /* padding-left: 150px; */
+        /* display: inline-block;  */
+    }
+    .ratings{
+        padding-top:5px ;
+        color: orange;
+        font-size: 16px;
+        /* display: inline-block; */
+    }
+    /* .fa fa-star{
+        color: aqua;
+    } */
+    /* .fa-solid{
+        font-size: 16px;
+        display: inline-block;
+    } */
+    .bgbanner{
+        width: 100%;
+        height: 200px;
+        border: 1px solid green; 
+    }
+    /* .bgbanner img{
+        width: 100%;
+    } */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="socialicons">
+            <div class="headicons">
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-dribbble"></i>
+            <i class="fa-brands fa-behance"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+        <div class="logo">
+            <img alt="" data-cfsrc="img/core-img/logo.png" src="https://preview.colorlib.com/theme/delicious/img/core-img/logo.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Pages</a></li>
+                <li><a href="index.html">Mega Menu</a></li>
+                <li><a href="index.html">Recepies</a></li>
+                <li><a href="index.html">4Vegans</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-magnifying-glass"></i> 
+            <!-- <div class="">
+                <i class="fa-solid fa-magnifying-glass"></i>  
+            </div>  -->
+        </nav>
+    </header>
+    <div class="receipe">
+        <div class="receipeimage">
+            <div class="content1">
+            <h2>Strawberry Cake</h2>
+            <p>Simple & Delicios</p>
+            <button>See Full Receipe</button>
+            </div>
+        </div>
+    
+        <div class="receipeimage">
+            <div class="content2">
+                <h2>Chinesse Noodles</h2>
+                <p>Simple & Delicios</p>
+                <button>See Full Receipe</button>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="bestreceipe">
+        <h2>The Best Receipe</h2>
+        <div class="menusection">
+            <div class="menu1">
+            <img src="images/insta1.jpg" alt="">
+            <div id="anchor">
+                <a href="index.html">Sushi Easy Receipy</a>
+                <div class="ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                
+            </div>
+            </div>
+            <div class="menu1">
+            <img src="images/insta7.jpg" alt="">
+            <div id="anchor">
+                <a href="index.html">Homemade Burger</a>
+                <div class="ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            </div>
+            <div class="menu1">
+            <img src="images/insta5.jpg" alt="">
+            <div id="anchor">
+                <a href="index.html">Vegan Smoothie</a>
+                <div class="ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            </div>
+            <div class="menu1">
+                <img src="images/insta1.jpg" alt="">
+                <div id="anchor">
+                    <a href="index.html">Sushi Easy Receipy</a>
+                    <div class="ratings">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="menu1">
+                <img src="images/insta7.jpg" alt="">
+                <div id="anchor">
+                    <a href="index.html">Homemade Burger</a>
+                    <div class="ratings">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                </div>
+                <div class="menu1">
+                <img src="images/insta5.jpg" alt="">
+                <div id="anchor">
+                    <a href="index.html">Vegan Smoothie</a>
+                    <div class="ratings">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                </div>
+
+                <div class="bgbanner">
+                    <!-- <img src="images/bg4.jpg" alt=""> -->
+                </div>
+        </div>
+    </div>
+</body>
+</html>
